@@ -1,0 +1,118 @@
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+  }
+  
+  h1 {
+    font-family: my-cool-font, sans-serif;
+  }
+  
+.parent{
+    border: 5px solid#755547;
+  
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    width: 690px;
+    height: 230px;
+    background-color: rgb(233, 230, 230);
+    padding-top: 140px;
+   
+}
+
+.intro {
+    width: 660px;
+}
+.darkArea{
+    background-color: rgb(15, 6, 6);
+    position: absolute;
+    width: 519px;
+    height: 150px;
+    opacity: 0.5;
+    top:230px
+}
+
+.logo{
+    position: absolute;
+    top: 240px;
+    left: 150px
+    
+}
+.logoWords{
+    position: absolute;
+    font-family: Norse-Bold;
+    font-size: 100px;
+    color: white;
+    top:260px;
+    left:250px;
+}
+
+.callback{
+    margin-left: 30px;
+}
+
+.side{
+    display: inline-block;
+    vertical-align: top;
+
+    
+}
+.credit{
+    position: absolute;
+    top: 715px;
+    
+    
+}
+
+.row label{
+    display: block;
+}
+
+input:valid{
+    border: 2px solid green;
+}
+
+
+input:invalid{
+border: 2px solid red;
+}
+input:focus{
+    background-color: #d8d6d6;
+}
+
+#first-name, #last-name, #email, #phone, #password{
+    width: 230px;
+    height: 25px
+}
+
+#confirm-password {
+    width: 230px;
+    height: 25px ;
+}
+.row{
+    display: flex;
+    margin-left: 30px;
+    gap: 100px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #755547;
+    color: white;
+    margin-left: 30px;
+    height: 40px;
+    width: 200px;
+}
+button:hover{
+    background-color: #ce4011;
+}
+h3{
+    margin-left: 23px;
+}
+
+strong{
+    color: #755547;
+}
