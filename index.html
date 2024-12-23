@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel = "stylesheet" href = "style.css">
+
+</head>
+<body>
+    <div class="parent">   <!--did this to wrap around left and right to put them next each other using inline block-->
+
+    <div class="side">
+    <image src = "eagle.jpg" width = "520px" height = "750px"></image>  
+    <div class="logo">
+        <image src = "odin.png" width = "100px" height = "130px"></image> 
+    </div>
+    <div class="logoWords">Odin</div>
+    <div class="darkArea"></div>
+
+    <div class="credit"><p>Photo by Christopher Osten on Unsplash</p></div>
+   </div><!--closing for first Side-->
+
+   
+    <div class="side">
+
+    <div class="header">
+        <div class="intro">
+   <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign Up now to get started</h2> 
+    </div>
+    <h2>You <em>know</em> you want to.</h2>
+    </div>
+
+    <div class = "callback"><h2>Let's do this!</h2></div>
+
+    <section>
+        <div class="row">
+        <form>
+            <label for ="first_name">First Name</label>
+           <input type="text" id = "first-name" name = "first_name" placeholder ="Thor">   
+        </form>
+
+        <form>
+            <label for ="last_name">Last Name</label>
+           <input type="text" id = "last-name" name = "last_name" placeholder ="Odinson">     
+        </form>
+        </div>
+
+        <div class="row">
+        <form>
+            <label for ="email">Email</label>
+           <input type="email" id = "email" name = "email" placeholder ="you@example.com">    
+        </form>
+
+        <form>
+            <label for ="phone_number">Phone Number</label>
+           <input type="tel" id = "phone" name = "phone_number">      
+        </form> 
+        </div>
+
+        <div class="row">
+        <form>
+            <label for ="password">Password</label>
+           <input type="password" id = "password" name = "password">     
+        </form>
+       
+        <form>
+            <label for ="confirm-password">Confirm Password</label>
+           <input type="password" id = "confirm-password" name = "password">
+        </form>
+
+
+        </div>
+
+    </section>
+
+    <button type="submit">Create Account</button>
+    <h3>Already have an account? <strong>Log in</strong></h3>
+   
+</div> <!--closing div for second Side-->
+    </div> <!-- closing div for parent-->
+</body>
+</html>
